@@ -10,6 +10,6 @@ Basedides I added pagination on scroll.
 Also I used adaptive design, so you can test my app on mobile devices and tablets.
 To run app on your local machine, please clone this repo and use this commands:
 
-# npm i
-# npm run build
-# nmp run start
+- npm i
+- npm run build
+- nmp run start
