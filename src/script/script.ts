@@ -1,6 +1,6 @@
 import { Person } from "../types/Person";
 
-window.onload = function () {
+window.onload = () => {
   getPersons();
 };
 
