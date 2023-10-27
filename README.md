@@ -1,5 +1,6 @@
 # Persons by birthday search 
-[DEMO][(https://persons-by-date-js.vercel.app/)]
+[DEMO](https://persons-by-date-js.vercel.app/)
+
 Used technologies: HTML, CSS, JS, TS, SASS.
 In this application you get a list of persons with their information. You can filter this list by their date of birdth.
 - get person who were born from some date
