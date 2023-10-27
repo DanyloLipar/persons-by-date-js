@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: $body-bg;
+}
+
+p,
+h1,
+h2,
+h3,
+ul,
+li,
+input {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: url("/src/assets/images/date-picker.svg") center center no-repeat;
+  cursor: pointer;
+}
