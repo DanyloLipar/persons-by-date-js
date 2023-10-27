@@ -17,7 +17,7 @@ const appendUsersToList = (persons: Person[]) => {
               <div class="details__info">
                 <img
                   class="details__info-icon"
-                  src="./src/assets/images/mail.svg"
+                  src="/src/assets/images/mail.svg"
                   alt="mail"
                 />
                 <a class="details__info-text" href="mailto:${person.email}">${person.email}</a>
@@ -25,7 +25,7 @@ const appendUsersToList = (persons: Person[]) => {
               <div class="details__info">
                 <img
                   class="details__info-icon"
-                  src="./src/assets/images/phone.svg"
+                  src="/src/assets/images/phone.svg"
                   alt="phone"
                 />
                 <a class="details__info-text" href="tel:${person.phone}">${person.phone}</a>
@@ -33,7 +33,7 @@ const appendUsersToList = (persons: Person[]) => {
               <div class="details__info">
                 <img
                   class="details__info-icon"
-                  src="./src/assets/images/birthday.svg"
+                  src="/src/assets/images/birthday.svg"
                   alt="birthday"
                 />
                 <span class="details__info-text">${person.birthday}</span>
@@ -41,7 +41,7 @@ const appendUsersToList = (persons: Person[]) => {
               <div class="details__info">
                 <img
                   class="details__info-icon"
-                  src="./src/assets/images/gender.svg"
+                  src="/src/assets/images/gender.svg"
                   alt="gender"
                 />
                 <span class="details__info-text">${person.gender}</span>
@@ -49,7 +49,7 @@ const appendUsersToList = (persons: Person[]) => {
               <div class="details__info">
                 <img
                   class="details__info-icon"
-                  src="./src/assets/images/website.svg"
+                  src="/src/assets/images/website.svg"
                   alt="website"
                 />
                 <a class="details__info-text" target="_blank" href="${person.website}">${person.website}</a>
